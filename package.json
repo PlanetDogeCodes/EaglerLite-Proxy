@@ -1,0 +1,15 @@
+{
+  "name": "eaglerlite-ws-proxy",
+  "version": "1.0.0",
+  "description": "WebSocket proxy for EaglerLite",
+  "main": "proxy-server.js",
+  "scripts": {
+    "start": "node proxy-server.js"
+  },
+  "dependencies": {
+    "ws": "^8.16.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
