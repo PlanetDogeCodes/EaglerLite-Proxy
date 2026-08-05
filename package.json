@@ -1,14 +1,14 @@
 {
   "name": "eaglerlite-ws-proxy",
   "version": "1.0.0",
-  "description": "Hybrid WebSocket proxy for EaglerLite (simple WS + wisp + epoxy)",
+  "description": "Hybrid WebSocket proxy for EaglerLite (wisp + simple WS + epoxy)",
   "main": "proxy-server.js",
   "scripts": {
     "start": "node proxy-server.js"
   },
   "dependencies": {
     "ws": "^8.16.0",
-    "wisp-server-node": "^1.0.0"
+    "wisp-server-node": "^1.1.8"
   },
   "engines": {
     "node": ">=14.0.0"
